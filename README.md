@@ -25,4 +25,4 @@ See the [LICENSE.txt][:license:] file for more.<br>© 2016-2017 asskicker.cn
 [:downloads:]: https://packagist.org/phalcon/compose
 [:docker:]:    https://www.docker.com
 [:documentation:]:  http://doc.baiyang.com/home/item/show?item_id=50
-[:license:]:   https://github.com/phalcon/phalcon-compose/blob/master/LICENSE.txt
+[:license:]:   https://github.com/magichuihui/shopnc/blob/master/LICENSE.txt
