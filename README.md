@@ -17,7 +17,7 @@ Shopnc's documentation can be seen at [doc.baiyang.com][:documentation:].
 ## License
 
 This swarm configuration is open source software licensed under the MIT.<br>
-See the [LICENSE.txt][:license:] file for more.<br>© 2016-2017 asskicker.cn 
+See the [LICENSE.txt][:license:] file for more.<br>© 2016-2018 asskicker.cn 
 
 [:release:]:   https://github.com/phalcon/phalcon-compose/releases
 [:status:]:    https://travis-ci.org/phalcon/phalcon-compose
