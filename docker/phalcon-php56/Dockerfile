@@ -19,6 +19,8 @@ RUN apt-get update && apt-get install -y \
     # Install redis
     && pecl install redis \
     && docker-php-ext-enable redis \
+    && pecl install xdebug-2.5.5 \
+    && docker-php-ext-enable xdebug \
     # Install phalcon.so
     && git clone https://github.com/phalcon/cphalcon \
     && cd cphalcon/build && ./install \
