@@ -56,6 +56,19 @@ services:
     networks:
       - shopnc-test
 
+  php72:
+    image: magichuihui/phalcon-php:7.2
+    working_dir: /projects
+    volumes:
+      - ./app:/projects
+    depends_on:
+      - redis
+      - mysql
+    env_file:
+      - vairables.env
+    networks:
+      - shopnc-test
+
   nginx-server:
     image: openresty/openresty:1.13.6.1-centos
     volumes:
