@@ -1,4 +1,4 @@
-FROM magichuihui/phalcon-php56:v1.1
+FROM magichuihui/phalcon-php:5.6
 
 COPY files/shopnc.so /usr/local/lib/php/extensions/no-debug-non-zts-20131226/
 
